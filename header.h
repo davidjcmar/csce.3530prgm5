@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-typedef enum {u, v, w, x, y , z} vertices;
 struct router_in{
 	char source;
 	char dest;
@@ -12,7 +11,4 @@ struct router_in{
 	struct router_in* next;
 	struct router_in* prev;
 };
-
-int dijkstra ();
-int dvector ();
 #endif
